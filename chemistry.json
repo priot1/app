@@ -1,0 +1,274 @@
+const goodsList =`[{
+"id" : 1,
+"link" : "img/smart1.jpg",
+"title" : "6.6 Смартфон Infinix Smart 6 HD 32 ГБ голубой ядер - 4x(2 ГГц), 2 Гб, 2 SIM, IPS, 1600x720, камера 8+0.08 Мп, 4G, GPS, FM, 5000 мА*ч",
+"date" : "2023-02-16",
+"categories" : "smartfon",
+"price" : "4999 ₽"
+},
+{
+"id" : 2,
+"link" : "img/smart2.jpg",
+"title" : "5 Смартфон BQ 5046L Choice 16 ГБ синий ядер - 4x(1.5 ГГц), 2 Гб, 2 SIM, IPS, 1280x720, камера 5 Мп, 4G, GPS, 2000 мА*ч",
+"date" : "2023-01-19",
+"categories" : "smartfon",
+"price" : "5099 ₽"
+},
+{
+"id" : 3 ,
+"link" : "img/smart3.jpg",
+"title" : "Смартфон BQ 6051G Soul 32 ГБ серый ядер - 4x(1.3 ГГц), 2 Гб, 2 SIM, IPS, 1560x720, камера 5 Мп, 3G, GPS, 3000 мА*ч price",
+"date" : "2023-03-11",
+"categories" : "smartfon",
+"price" : "5899 ₽"
+},
+{
+"id" : 4 ,
+"link" : "img/smart4.jpg",
+"title" : "5.5 Смартфон Black Fox B2 Fox 8 ГБ голубой дер - 4x(1.4 ГГц), 1 Гб, 2 SIM, IPS, 1440x720, камера 8 Мп, 4G, GPS, 2200 мА*ч",
+"date" : "2023-04-05",
+"categories" : "smartfon",
+"price" : "3499 ₽"
+},
+{
+"id" : 5 ,
+"link" : "img/smart5.jpg",
+"title" : "5.7 Смартфон BQ 5765L Clever 16 ГБ черный ядер - 4x(1.8 ГГц, 2 ГГц), 3 Гб, 2 SIM, IPS, 1440x720, камера 5 Мп, 4G, GPS, 2700 мА*чj",
+"date" : "2023-02-08",
+"categories" : "smartfon",
+"price" : "4299 ₽"
+},
+{
+"id" : 6 ,
+"link" : "img/smart6.jpg",
+"title" : "6.52 Смартфон Xiaomi Redmi A1+ 32 ГБ черный ядер - 4x(2 ГГц), 2 Гб, 2 SIM, IPS, 1600x720, камера 8+0.3 Мп, 4G, GPS, 5000 мА*ч",
+"date" : "2023-05-25",
+"categories" : "smartfon",
+"price" : "4999 ₽"
+},
+{
+"id" : 7 ,
+"link" : "img/smart7.jpg",
+"title" : "6.6 Смартфон Itel A49 32 ГБ голубой ядер - 4x(1.4 ГГц), 2 Гб, 2 SIM, TN, 1612x720, камера 5 Мп, 4G, GPS, FM, 4000 мА*ч",
+"date" : "2023-04-27",
+"categories" : "smartfon",
+"price" : "4499 ₽"
+},
+{
+"id" : 8 ,
+"link" : "img/smart8.jpg",
+"title" : "6.5 Смартфон realme C30S 32 ГБ голубой ядер - 8x(1.6 ГГц), 2 Гб, 2 SIM, IPS, 1600x720, камера 8 Мп, 4G, GPS, 5000 мА*ч",
+"date" : "2023-04-17",
+"categories" : "smartfon",
+"price" : "5499 ₽"
+},
+{
+"id" : 9 ,
+"link" : "img/smart9.jpg",
+"title" : "6.52 Смартфон Tecno Spark Go 2022 32 ГБ бирюзовый дер - 4x(1.8 ГГц), 2 Гб, 2 SIM, IPS, 1600x720, камера 13+0.08 Мп, NFC, 4G, GPS, FM, 5000 мА*ч",
+"date" : "2023-03-09",
+"categories" : "smartfon",
+"price" : "5499 ₽"
+},
+{
+"id" : 10 ,
+"link" : "img/smart10.jpg",
+"title" : "6.6 Смартфон Tecno POP 7 64 ГБ голубой ядер - 8x(1.6 ГГц), 2 Гб, 2 SIM, TN, 1612x720, камера 8 Мп, 4G, GPS, 5000 мА*ч",
+"date" : "2023-02-19",
+"categories" : "smartfon",
+"price" : "5999 ₽"
+}
+,
+{
+"id" : 11,
+"link" : "img/notebook10.jpg",
+"title" : "14 Ноутбук DEXP Aquilon серебристый Full HD (1920x1080), IPS, Intel Celeron N4020, ядра: 2 х 1.1 ГГц, RAM 4 ГБ, SSD 128 ГБ, Intel UHD Graphics 600 , Windows 11 Pro",
+"date" : "2023-03-16",
+"categories" : "notebook",
+"price" : "14799 ₽"
+},
+{
+"id" : 12,
+"link" : "img/notebook.png",
+"title" : "Asus  Ноутбук X415FA-EB014, 14, IPS, Intel Core i3 10110U 2.1ГГц, 4ГБ, 256ГБ SSD, Intel UHD Graphi",
+"date" : "2023-02-16",
+"categories" : "notebook",
+"price" : "36000 ₽"
+},
+{
+"id": 13,
+"link" : "img/notebook1.jpg",
+"title" : "HP  Ноутбук HP 255 G8 (Ryzen 3 5300U / 8Gb / 256Gb SSD / 15.6 FHD / UMA / Win10) 3V5H9EAHP",
+"date" : "2023-01-15",
+"categories" : "notebook",
+"price" : "34990 ₽"
+},
+{
+"id" : 14 ,
+"link" : "img/notebook3.png",
+"title" : "Acer  Ноутбук Acer Extensa EX215-22-A3JQ (A-3020e / 8Гб / 256Гб SSD / 15.6 FHD / UMA / NoOS ) NX.EG9ER.00A",
+"date" : "2023-03-13",
+"categories" : "notebook",
+"price" : "30723 ₽"
+},
+{
+"id" : 15,
+"link" : "img/notebook4.png",
+"title" : "lenovo &#47; Ноутбук LENOVO IdeaPad S145-15IIL (i3-1005G1 &#47; 4Gb &#47; 256Gb SSD &#47  15.6 FHD &#47  UMA &#47 Win10) 81W8001JRU",
+"date" : "2023-05-16",
+"categories" : "notebook",
+"price" : "35492 ₽"
+},
+{
+"id": 16,
+"link" : "img/notebook5.png",
+"title" : "Asus  &#47 Asus Ноутбук VivoBook X515FA-BR037, 15.6 , Intel Core i3 10110U 2.1ГГц, 4ГБ, 256ГБ SSD, Intel",
+"date" : "2023-05-12",
+"categories" : "notebook",
+"price" : "38000 ₽"
+},
+{
+"id" : 17 ,
+"link" : "img/notebook6.png",
+"title" : "lenovo  &#47; Ноутбук IP5P-14ACN6 (Ryzen 5 5600U/8Gb/512Gb SSD/14) 82L7007MRM",
+"date" : "2023-03-19",
+"categories" : "notebook",
+"price" : "75600 ₽"
+},
+{
+"id" : 18 ,
+"link" : "img/notebook6.png",
+"title" : "lenovo  &#47; Ноутбук IP5P-14ACN6 (Ryzen 5 5600U/8Gb/512Gb SSD/14) 82L7007MRM",
+"date" : "2023-03-19",
+"categories" : "notebook",
+"price" : "75600 ₽"
+},
+{
+"id" : 19 ,
+"link" : "img/notebook7.jpg",
+"title" : "15.6 Ноутбук Tecno Megabook T1 синий Full HD (1920x1080), IPS, Intel Core i3-1005G1, ядра: 2 х 1.2 ГГц, RAM 12 ГБ, SSD 256 ГБ, Intel UHD Graphics , Linux",
+"date" : "2023-04-19",
+"categories" : "notebook",
+"price" : "34999 ₽"
+},
+{
+"id" : 19 ,
+"link" : "img/notebook8.jpg",
+"title" : "4 Ноутбук Chuwi CoreBook X 14 серый 2160x1440, IPS, Intel Core i3-10110U, ядра: 2 х 2.1 ГГц, RAM 8 ГБ, SSD 512 ГБ, Intel UHD Graphics , Windows 11 Home Single Language",
+"date" : "2023-05-11",
+"categories" : "notebook",
+"price" : "34999 ₽"
+},
+{
+"id" : 21 ,
+"link" : "img/notebook9.jpg",
+"title" : "15.6 Ноутбук Maibenben M555 белый Full HD (1920x1080), IPS, AMD Ryzen 5 5500U, ядра: 6 х 2.1 ГГц, RAM 8 ГБ, SSD 512 ГБ, AMD Radeon Graphics , Linux",
+"date" : "2023-05-09",
+"categories" : "notebook",
+"price" : "37499 ₽"
+},
+{
+"id" : 22,
+"link" : "img/notebook11.jpg",
+"title" : "14 Ноутбук MSI Prestige 14 A12SC-247RU серый Full HD (1920x1080), IPS, Intel Core i5-1240P, ядра: 4 + 8 х 1.7 ГГц, RAM 8 ГБ, SSD 512 ГБ, GeForce GTX 1650 4 ГБ, Windows 11 Home Single Language",
+"date" : "2023-01-28",
+"categories" : "notebook",
+"price" : "79999 ₽"
+},
+{
+"id" : 23,
+"link" : "img/tel1.jpg",
+"title" : "24 (60 см) Телевизор LED Econ EX-24HT008B черный HD, 1366x768, 60 Гц, HDMI х 1, USB х 1, VGA (D-Sub)",
+"date" : "2023-04-17",
+"categories" : "televizor",
+"price" : "6699 ₽"
+},
+{
+"id" : 24,
+"link" : "img/tel2.jpg",
+"title" : "24 (60 см) Телевизор LED DEXP H24H8000C черный HD, 1366x768, Wi-Fi, 60 Гц, Яндекс.ТВ, HDMI х 2, USB х 2",
+"date" : "2023-05-15",
+"categories" : "televizor",
+"price" : "7999 ₽"
+},
+{
+"id" : 25 ,
+"link" : "img/tel3.jpeg",
+"title" : "32 (81 см) Телевизор LED Modena TV 3213 LAX черный HD, 1366x768, HDMI х 2, USB х 2",
+"date" : "2023-03-21",
+"categories" : "televizor",
+"price" : "7999 ₽"
+},
+{
+"id" : 26 ,
+"link" : "img/tel4.jpg",
+"title" : "24 (60 см) Телевизор LED Asano 24LH1110T черный HD, 1366x768, 60 Гц, HDMI х 1, USB х 1, VGA (D-Sub)",
+"date" : "2023-02-22",
+"categories" : "televizor",
+"price" : "6399 ₽"
+},
+{
+"id" : 27 ,
+"link" : "img/tel5.jpg",
+"title" : "24 (60 см) Телевизор LED DEXP H24H7000E черный HD, 1366x768, 60 Гц, HDMI х 3, USB х 2 ",
+"date" : "2023-01-12",
+"categories" : "televizor",
+"price" : "6499 ₽"
+},
+{
+"id" : 28 ,
+"link" : "img/tel6.jpg",
+"title" : "24 (61 см) Телевизор LED Candy Uno 24 черный HD, 1366x768, 60 Гц, HDMI х 2, USB х 1 ",
+"date" : "2023-03-02",
+"categories" : "televizor",
+"price" : "6599 ₽"
+},
+{
+"id" : 29 ,
+"link" : "img/tel7.jpg",
+"title" : "23.6 (60 см) Телевизор LED Telefunken TF-LED24S15T2 черный HD, 1366x768, HDMI х 1, USB х 1, VGA (D-Sub ",
+"date" : "2023-03-01",
+"categories" : "televizor",
+"price" : "6699 ₽"
+},
+{
+"id" : 30 ,
+"link" : "img/tel8.jpg",
+"title" : "24 (60 см) Телевизор LED DEXP H24G8100C черный HD, 1366x768, Wi-Fi, 60 Гц, Салют ТВ, HDMI х 2, USB х 2 ",
+"date" : "2023-02-01",
+"categories" : "televizor",
+"price" : "8399 ₽"
+},
+{
+"id" : 31 ,
+"link" : "img/tel9.jpg",
+"title" : "32 (80 см) Телевизор LED Leff 32H120T черный HD, 1366x768, 60 Гц, HDMI х 3, USB х 2, VGA (D-Sub) ",
+"date" : "2023-02-17",
+"categories" : "televizor",
+"price" : "8499 ₽"
+},
+{
+"id" : 32 ,
+"link" : "img/tel10.jpg",
+"title" : "24 (61 см) Телевизор LED Hyundai H-LED24FT2001 черный HD, 1366x768, 60 Гц, HDMI х 2, USB х 1",
+"date" : "2023-03-22",
+"categories" : "televizor",
+"price" : "8999 ₽"
+},
+{
+"id" : 33 ,
+"link" : "img/tel11.png",
+"title" : "32 (81 см) Телевизор LED Accesstyle F32EY1500B черный FullHD, 1920x1080, Wi-Fi, 60 Гц, Яндекс.ТВ, HDMI х 3, USB х 2",
+"date" : "2023-03-29",
+"categories" : "televizor",
+"price" : "10499 ₽"
+},
+{
+"id" : 34 ,
+"link" : "img/tel12.jpg",
+"title" : "32 (80 см) Телевизор LED Samsung UE32N4000AUXRU черный HD, 1366x768, 60 Гц, HDMI х 2, USB х 1",
+"date" : "2022-12-30",
+"categories" : "televizor",
+"price" : "12999 ₽"
+}
+]`;
